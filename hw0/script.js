@@ -114,19 +114,20 @@
 
 //14) Призвіще Ім'я По батькові(готово)
 
-// {
-//    let name = prompt('Введіть сюди своє ім\'я:');
-//    let surname = prompt('Введіть сюди своє прізвище:');
-//    let prizv = prompt('Введіть своє ім\'я по батькові:');
-//    let nameZ = name.slice(0,1).toUpperCase();
-//    let nameR = name.slice(1).toLowerCase();
-//    let namePov = (nameZ+nameR);
-//    let surnameZ = surname.slice(0,1).toUpperCase();
-//    let surnameR = surname.slice(1).toLowerCase();
-//    let surnamePov = (surnameZ+surnameR);
-//    let prizvZ = prizv.slice(0,1).toUpperCase();
-//    let prizvR = prizv.slice(1).toLowerCase();
-//    let prizvPov =(prizvZ+prizvR);
-//    alert(namePov+' '+surnamePov+' '+prizvPov);
-// }
+{
+   let name = prompt('Введіть сюди своє ім\'я:');
+   let surname = prompt('Введіть сюди своє прізвище:');
+   let prizv = prompt('Введіть своє ім\'я по батькові:');
+   let nameZ = name.slice(0,1).toUpperCase();
+   let nameR = name.slice(1).toLowerCase();
+   let namePov = (nameZ+nameR);
+   let surnameZ = surname.slice(0,1).toUpperCase();
+   let surnameR = surname.slice(1).toLowerCase();
+   let surnamePov = (surnameZ+surnameR);
+   let prizvZ = prizv.slice(0,1).toUpperCase();
+   let prizvR = prizv.slice(1).toLowerCase();
+   let prizvPov =(prizvZ+prizvR);
+   alert(namePov+' '+surnamePov+' '+prizvPov);
+   let
+}
 
