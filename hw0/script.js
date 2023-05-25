@@ -38,18 +38,7 @@
 //     alert(Calculator[mnojenia]);
 // }
 
-//6) Calculator 2 калькулятор з методом слайс(недороблено)
-
-// {
-//     const calculator = [['0-0-0-0-0'],['1-2-3-4-5'],['2-4-6-8-10'],['3-6-9-12-15'],['4-8-12-16-20'],['5-10-15-20-25']];  
-//     let obrez = [calculator. slice(1)];
-//     obrez.unshift([]);
-//     let mnojnik1 = +prompt('Введіть число, до п\'яти:');
-//     let mnojnik2 = +prompt('Введіть число, на яке хочете помножити попереднє, до п\'яти:');
-//    alert('Ваш результат:'+' '+ obrez[mnojnik1][mnojnik2]);
-// }
-
-//7) Рік народження(готово) 
+//6) Рік народження(готово) 
 
 // {
 //     let age = +prompt('Введіть ваш вік');
@@ -57,7 +46,7 @@
 //     alert(dateOfBrith);
 // }
 
-//8)Температура повітря в фаренгейтах(готово)
+//7)Температура повітря в фаренгейтах(готово)
 
 // {
 //     let C = +prompt("Введть сюди температуру повітря у Вашій місцевості, у Цельсіях:");
@@ -65,7 +54,7 @@
 //     alert(K);
 // }
 
-//9)Валюта, обмін(готово)
+//8)Валюта, обмін(готово)
 
 // {
 //     const rate = 36.94;
@@ -74,14 +63,14 @@
 //     alert(obmin.toFixed(2) +' '+ "ваша сума в  доларах");
 // }
 
-//10) Привітвння(готово)
+//9) Привітвння(готово)
 
 // {
 //     let a = prompt('Як вас звати?');
 //     alert(`${'Добрий день ' +a}`);
 // }
 
-//11) Метод split(готов, урааа)
+//10) Метод split(готово)
 
 // {
     
@@ -97,7 +86,7 @@
 //     }
 // }
 
-//12) Покращений калькулятор(готово)
+//11) Покращений калькулятор(готово)
 
 // {
 //    const calculator = [[0,0,0,0,0,0],[0,1,2,3,4,5],[0,2,4,6,8,10],[0,3,6,9,12,15],[0,4,8,12,16,20],[0,5,10,15,20,25]];
@@ -106,28 +95,58 @@
 //    alert('Ваш результат:'+' '+ calculator[mnojnik1][mnojnik2]);
 // }
 
-//13) Завдання Revers(не дороблено)
+//12) Призвіще Ім'я По батькові(готово)
 
 // {
-//    let array = [];
+//    let name = prompt('Введіть сюди своє ім\'я:');
+//    let surname = prompt('Введіть сюди своє прізвище:');
+//    let prizv = prompt('Введіть своє ім\'я по батькові:');
+//    let nameZ = name.slice(0,1).toUpperCase();
+//    let nameR = name.slice(1).toLowerCase();
+//    let namePov = (nameZ+nameR);
+//    let surnameZ = surname.slice(0,1).toUpperCase();
+//    let surnameR = surname.slice(1).toLowerCase();
+//    let surnamePov = (surnameZ+surnameR);
+//    let prizvZ = prizv.slice(0,1).toUpperCase();
+//    let prizvR = prizv.slice(1).toLowerCase();
+//    let prizvPov =(prizvZ+prizvR);
+//    alert(namePov+' '+surnamePov+' '+prizvPov);
+   
 // }
 
-//14) Призвіще Ім'я По батькові(готово)
+//13) Number: divide(готово)
 
-{
-   let name = prompt('Введіть сюди своє ім\'я:');
-   let surname = prompt('Введіть сюди своє прізвище:');
-   let prizv = prompt('Введіть своє ім\'я по батькові:');
-   let nameZ = name.slice(0,1).toUpperCase();
-   let nameR = name.slice(1).toLowerCase();
-   let namePov = (nameZ+nameR);
-   let surnameZ = surname.slice(0,1).toUpperCase();
-   let surnameR = surname.slice(1).toLowerCase();
-   let surnamePov = (surnameZ+surnameR);
-   let prizvZ = prizv.slice(0,1).toUpperCase();
-   let prizvR = prizv.slice(1).toLowerCase();
-   let prizvPov =(prizvZ+prizvR);
-   alert(namePov+' '+surnamePov+' '+prizvPov);
-   let
-}
+// {
+//     let math = +prompt('Введіть число,яке хочете округлити:');
+//     let result =[Math.ceil(math),Math.floor(math),Math.round(math)];
+//     alert('Ваше число округлене до більшого: '+ result[0]); 
+//     alert('Воно ж округлене до меншого: '+ result[1]);
+//     alert('Округлене по законам математики: '+ result[2]);
+// }
 
+//14) String: gopni4ek(готово)
+
+// {
+//     let str = prompt('Введіть сюди якесь речення:');
+//     let result = str.split(' ').join(',блін, ');
+//     alert(result);
+// }
+
+//15) String: capitalize(готово)
+
+// {
+//     let str = "cANBerRa";
+//     let C = str.slice(0,1).toUpperCase();
+//     let reshta = str.slice(1).toLowerCase(); 
+//     let str2 = (C+reshta);
+//     console.log(str2);
+// }
+
+//16) String: word count(готово)
+
+// {
+//     let what = prompt('Введіть будь ласка якесь речення:');
+//     let slice = what.split(' ');
+//     let index = (slice.length);
+//     alert('У вашому реченні стільки слів: '+index)
+// }
