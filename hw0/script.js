@@ -1,4 +1,4 @@
-//1) Confirms(готово)
+//1) Confirms,Boolean(готово)
 
 // {
 //     let question =[confirm('Ти робив домашку?'),confirm('Ну і як життя?'), confirm('Краще буде?')];
@@ -43,7 +43,7 @@
 // {
 //     let age = +prompt('Введіть ваш вік');
 //     let dateOfBrith =(`${2023-age}`);
-//     alert(dateOfBrith);
+//     (age==0) ? alert("Ну і хамло") : alert(dateOfBrith);
 // }
 
 //7)Температура повітря в фаренгейтах(готово)
@@ -148,5 +148,26 @@
 //     let what = prompt('Введіть будь ласка якесь речення:');
 //     let slice = what.split(' ');
 //     let index = (slice.length);
-//     alert('У вашому реченні стільки слів: '+index)
+//     alert('У вашому реченні стільки слів: '+index);
 // }
+
+//17) Boolean: if(готово)
+
+// {
+//     let gender = confirm('Натисніть ок, якщо ви чоловік');
+//     if(gender==true){
+//         alert('Тоді можете заходити');
+//     }
+//     else{
+//         alert('Ви жінка, вам союди не можна');
+//     }
+
+// }
+
+//18) Ternary
+
+// {
+//     let gender = confirm('Натисніть ок, якщо ви чоловік') ? alert("Ви чоловік") : alert("Ви жінка") ;
+// }
+
+//19) 
