@@ -50,3 +50,14 @@
 //    alert(namePov+' '+surnamePov+' '+prizvPov);
    
 // }
+
+//String: beer(готово)
+
+// {
+//     let str = 'Було жарко.Василь пив пиво і куштував креветки';
+//     let str1 = (str.slice(0,21)+' чай ');
+//     let str2 = str.slice(27);
+//     let result = str1+str2;
+//     console.log(result);
+// }
+

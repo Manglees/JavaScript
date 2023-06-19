@@ -41,3 +41,48 @@
 //    let blue = prompt('Введіть значення для сиього кольору:');
 //     alert(`Ваш сформований колір CSS: #${red}${green}${blue}`);
 // }
+
+//Number: flats
+
+// {
+//     // let numberAppartaments =+prompt('Введіть номер квартири:');
+//     // const floor = 16;
+//     // const appartamentsFloor = 4;
+//     // const approach = 6;
+//     // const total = (floor*appartamentsFloor*approach);
+//     // alert((numberAppartaments<= 64)?`Під'їзд цієї квартири: 1 \nПоверх квартири: ${Math.ceil(numberAppartaments/appartamentsFloor)}` : (64<numberAppartaments<=128)?`Під'їзд цієї квартири: 2 \nПоверх квартири: ${Math.ceil(numberAppartaments/16-appartamentsFloor)}`: (128<numberAppartaments<=192)?`Під'їзд цієї квартири: 3 \nПоверх квартири: ${Math.ceil(numberAppartaments/32-appartamentsFloor)}`: (192<numberAppartaments<=256)?`Під'їзд цієї квартири: 4 \nПоверх квартири: ${Math.ceil(numberAppartaments/48-appartamentsFloor)}`:(256<numberAppartaments<=320)?`Під'їзд цієї квартири: 5 \nПоверх квартири: ${Math.ceil(numberAppartaments/64-appartamentsFloor)}`:(320<numberAppartaments<=384)`Під'їзд цієї квартири: 6 \nПоверх квартири: ${Math.ceil(numberAppartaments/80-appartamentsFloor)}`); 
+// }
+
+// {
+
+// Number flats(Артем)
+
+//     let number=+prompt('Vvedit nomer kvarturu') 
+//     const poverhu=9
+//     const kvartnapov=4
+//     const pod=5
+//      if ( number<37) {
+//      alert(`Номер підїзду: ${Math.ceil(number/(poverhu*kvartnapov))} \nPoverh: ${Math.ceil(number/kvartnapov)}`)
+//      } else if(number<73) {
+//          alert(`Номер підїзду: ${Math.ceil(number/(poverhu*kvartnapov))} \nPoverh: ${Math.ceil(number/kvartnapov-9)}`) 
+//      } else if(number<109) {
+//          alert(`Номер підїзду: ${Math.ceil(number/(poverhu*kvartnapov))} \nPoverh: ${Math.ceil(number/kvartnapov-18)}`)
+//      } else if(number<145){
+//          alert(`Номер підїзду: ${Math.ceil(number/(poverhu*kvartnapov))} \nPoverh: ${Math.ceil(number/kvartnapov-27)}`)
+//      }else if(number<181) {
+//          alert(`Номер підїзду: ${Math.ceil(number/(poverhu*kvartnapov))} \nPoverh: ${Math.ceil(number/kvartnapov-36)}`)
+//      }else if(number>180){
+         
+//      }
+// }
+
+//Індивідуальне завдання
+{
+const random = Math.ceil(Math.random()*15);
+let pRompt;
+while ((pRompt = +prompt('Введіть число від 0 до 15:'))!==random) {
+    alert(`Ви ввели число ${pRompt}. Ви не вгадали!`)
+}
+alert(`Ваше число: ${pRompt}. Вітаю, ви вгадали число!`)
+}
+
