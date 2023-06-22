@@ -77,12 +77,12 @@
 // }
 
 //Індивідуальне завдання
-{
-const random = Math.ceil(Math.random()*15);
-let pRompt;
-while ((pRompt = +prompt('Введіть число від 0 до 15:'))!==random) {
-    alert(`Ви ввели число ${pRompt}. Ви не вгадали!`)
-}
-alert(`Ваше число: ${pRompt}. Вітаю, ви вгадали число!`)
-}
+// {
+// const random = Math.ceil(Math.random()*15);
+// let pRompt;
+// while ((pRompt = +prompt('Введіть число від 0 до 15:'))!==random) {
+//     alert(`Ви ввели число ${pRompt}. Ви не вгадали!`)
+// }
+// alert(`Ваше число: ${pRompt}. Вітаю, ви вгадали число!`)
+// }
 

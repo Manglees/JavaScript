@@ -62,3 +62,34 @@
 //         alert('Такого слова у вашому реченні немає');
 //     }
 // }
+
+//For Alert(готово)
+
+// {
+//     const names = ["John", "Paul", "George", "Ringo"];
+//     for(let name of names){
+//         alert(`Hello ${name}`)
+//     }
+
+// }
+
+// //For Select Option(готово)
+
+// const currencies =['BGR','USD', 'EUR','UAH']
+// let str='<select>'
+// for (let currency of currencies){
+//     str+=`"<option>"${currency}"</option>"`
+// }
+// str+="</select>"
+// document.write(str)
+
+//For Table Horizontal(не дороблено)
+// {
+// const names = ['John', 'Paul', 'George', 'Ringo']
+// let   str = '<table>'
+// for (const name of names){
+// str+=`'<tr>''<td>'${name}'</td>''</tr>'`
+// }
+// str+= '</table>'
+// document.write(str)
+// }
