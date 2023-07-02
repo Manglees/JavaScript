@@ -33,21 +33,85 @@
 //4)Destruct string
 
 // {
-//     let arr = [1, "abc"];
-//     let[number1,[s1,s2,s3]]=arr;
+    // let arr = [1, "abc"];
+    // let[number1,[s1,s2,s3]]=arr;
+    // console.log(number1, s1, s2, s3)
 // }
 
-//4) Destruct 3(не дороблено)
+//4) Destruct 3(готово)
 
-{
-    let arr = [1,2,3,4, 5,6,7,10];
-    let[l,v,...rest]=arr;
-    let Lenght1 = arr.length;
-    let result = {
-        [l]: a,
-        [v]: b,
-        [Lenght1]:Lenght
-    }
+// {
     
+//     let arr = [1,2,3,4, 5,6,7,10];
+//     let[l,v,...rest]=arr;
+//     let Lenght1 = arr.length;
+//     const result = {
+//         a: l,
+//         b: v,
+//         Lenght: Lenght1
+//     }
+//     console.log(result);
     
-}
+// }
+
+//5) Destruct 2(готово, костиляга)
+// {
+//     let obj = {name: 'Ivan',
+//            surname: 'Petrov',
+//            children: [{name: 'Maria'}, {name: 'Nikolay'}]};
+//     const{children}=obj;
+//     const[name1,name2]=[children[0],children[1]];
+//     console.log(name1,name2);
+
+// }
+
+//6) Html tree(готово, як зміг)
+
+// {
+//     var body = {
+//         tagName : 'body',
+//         children :  [
+//             {
+//                 tagName : 'div',
+//                 children:[
+//                     {
+//                      tagName : 'span',
+//                      children : ['Enter a data please:'],   
+//                      attrs : '/br'          
+//                     },
+//                     {
+//                         tagName : 'input',
+//                         children :['name'].attrs('id'),
+//                         attrs : 'type',
+//                         children : 'text',
+//                     },
+//                     {
+//                         tagName : 'input',
+//                         children :['surname'].attrs('id'),
+//                         attrs : 'type',
+//                         children : 'text',   
+//                     }
+//                 ]
+//             },
+//             {
+//                 tagName : 'div',
+//                 children : [
+//                     {
+//                     tagName : 'button',
+//                     children : ['OK'],
+//                     attrs : 'id',
+//                     children : ['ok'],
+//                     },
+//                     {
+//                     tagName : 'button',
+//                     children : ['Cancel'],
+//                     attrs : 'id',
+//                     children : ['cancel'],            
+//                     }
+//                 ]
+//             }
+//         ]
+//     }
+
+// }
+
