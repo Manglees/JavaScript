@@ -8,19 +8,16 @@
 // String: gopni4ek(готово)
 
 // {
-//     let str = prompt('Введіть сюди якесь речення:');
-//     let result = str.split(' ').join(',блін, ');
-//     alert(result);
+//     let str = prompt('Введіть сюди якесь речення:').split(' ').join(',блін, ');
+//     alert(str);
 // }
 
 // String: capitalize(готово)
 
 // {
 //     let str = "cANBerRa";
-//     let C = str.slice(0,1).toUpperCase();
-//     let reshta = str.slice(1).toLowerCase(); 
-//     let str2 = (C+reshta);
-//     console.log(str2);
+//     str = str.slice(0,1).toUpperCase() + str.slice(1).toLowerCase();
+//     alert(str);
 // }
 
 // String: word count(готово)
@@ -60,4 +57,28 @@
 //     let result = str1+str2;
 //     console.log(result);
 // }
+// String: no tag(готово)
 
+// {   
+//     let str = "какой-то текст в котором есть один тэг <br /> и всякое другое";
+//     index = str.indexOf('<br />');
+//     str = str.slice(0,`${index}`) + str.slice(`${index+6}`)
+//     console.log(str);
+
+// }
+
+//String: big tag(готово)
+
+// {
+//     let str = "какой-то текст в котором есть один тэг <br /> и всякое другое";
+//     index = str.indexOf('<br />');
+//     str = str.slice(0,`${index}`) + str.slice(`${index}`,`${index+6}`).toUpperCase() + str.slice(`${index+6}`);
+//     console.log(str);
+// }
+
+//String: new line(не дороблно)
+
+// {
+//     let question = prompt("Введіть будь яке речення, можливо вірш.На позначення переносу рядка використовуйте символ: '</br>'");
+//     question = question.indexOf('</br>')
+// }

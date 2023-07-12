@@ -1,36 +1,55 @@
 //1) Literals(готово)
 
 // {
-//     const srsXb41 ={
-//         brand: 'Sony', 
-//         power: '50W',
-//         yearOfrelease: '2019',
-//         price:'150$'
-//     }
+    // const srsXb41 ={
+    //     brand: 'Sony', 
+    //     power: '50W',
+    //     yearOfrelease: '2019',
+    //     price:'150$'
+    // }
 // }
 
 //2) Literals expand(готово)
 
 // {
    
+    // const srsXb41 ={
+    //     brand: 'Sony', 
+    //     power: '50W',
+    //     yearOfrelease: '2019',
+    //     price:'150$',
+    //     userRating: prompt('Введіть оцінку колонки:'),
+    //     userResponse: prompt('Введіть відгук про колонку:')
+    // } 
+// }
+
+//3) Literals copy(готово)
+
+// {
 //     const srsXb41 ={
 //         brand: 'Sony', 
 //         power: '50W',
 //         yearOfrelease: '2019',
 //         price:'150$',
 //         userRating: prompt('Введіть оцінку колонки:'),
-//         userResponse: prompt('Введіть відгук про колонку:')
-//     } 
+//         userResponse: prompt('Введіть відгук про колонку:'),
+//     };
+    
+//     const obj = {
+//         ...srsXb41,
+//         question : prompt('Введіть, що хочете:'),
+//     };
+//     console.log(obj);
 // }
 
-//3)Destruct array
+//4)Destruct array
 
 // {
 //      let arr = [1,2,3,4,5, "a", "b", "c"];
 //      let [odd1, even1, odd2, even2, odd3,...rest]=arr;
 // }
 
-//4)Destruct string
+//5)Destruct string
 
 // {
     // let arr = [1, "abc"];
@@ -38,7 +57,7 @@
     // console.log(number1, s1, s2, s3)
 // }
 
-//4) Destruct 3(готово)
+//6) Destruct 3(готово)
 
 // {
     
@@ -54,7 +73,7 @@
     
 // }
 
-//5) Destruct 2(готово, костиляга)
+//7) Destruct 2(готово, костиляга)
 // {
 //     let obj = {name: 'Ivan',
 //            surname: 'Petrov',
@@ -65,7 +84,7 @@
 
 // }
 
-//6) Html tree(готово, як зміг)
+//8) Html tree(готово, як зміг)
 
 // {
 //     var body = {
@@ -76,20 +95,24 @@
 //                 children:[
 //                     {
 //                      tagName : 'span',
-//                      children : ['Enter a data please:'],   
-//                      attrs : '/br'          
+//                      children : ['Enter a data please:'],             
+//                     },
+//                     {
+//                         tagName : '<br>'
 //                     },
 //                     {
 //                         tagName : 'input',
-//                         children :['name'].attrs('id'),
-//                         attrs : 'type',
-//                         children : 'text',
+//                         children :['name'],
+//                         attrs : {
+//                             type : 'text'
+//                         } 
 //                     },
 //                     {
 //                         tagName : 'input',
-//                         children :['surname'].attrs('id'),
-//                         attrs : 'type',
-//                         children : 'text',   
+//                         children :['surname'],
+//                         attrs : {
+//                             type : 'text'
+//                         } 
 //                     }
 //                 ]
 //             },
@@ -113,5 +136,19 @@
 //         ]
 //     }
 
-// }
+//}
 
+//9) Currency drop down(готово)
+
+
+// {
+//     fetch('https://open.er-api.com/v6/latest/USD').then(res => res.json())
+//      .then(data => {
+//         let str =`<select>` 
+//         for(let item in data.rates){
+//             str+=`<option>${item}</option>`
+//         }
+//         str+=`</select>`
+//             document.write(str) 
+//          })
+// }
