@@ -99,5 +99,4 @@
 //     const reg  = `http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=${user.input}|\.be\/)([\w\-\_]*)(&(amp;)?‌​[\w\?‌​=]*)?`;
 //     console.log(reg);
     
-
 // }

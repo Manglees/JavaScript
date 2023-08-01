@@ -156,7 +156,7 @@
 //     multiplicationTable.slice(1);
 //     let sliceMultiplicftionTable = [];
 //     for (const num of multiplicationTable) {
-//          sliceMultiplicftionTable = multiplicationTable[1].slice(1)
+//          sliceMultiplicftionTable = multiplicationTable.pop()
          
 //     }
 //     console.log(sliceMultiplicftionTable);
