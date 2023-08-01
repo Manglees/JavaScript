@@ -1,3 +1,30 @@
+//Number: odd(done)
+
+// {
+//     let question = +prompt('Please enter an even number:');
+//     if(question%2===0){
+//         alert('Thank you for the correct data')
+//     }
+//     else{
+//         alert('H\'es not lying, the bastard')
+//     }
+
+// }
+
+//String: lexics(готово)
+
+// {
+//     let question = prompt('Enter the text wiht incorrect words to check it:');
+//     let result = [question.split(' ').includes('блін'), question.split(' ').indexOf('блін')]
+//     if(result[0]==true){
+//     alert(`У тексті, який Ви ввели є некоректне слово. Його позиція в рядку: ${result[1]+1}`);
+//     }
+//     else{
+//         alert('Ваш текст чистий')
+//     }
+
+// }
+
 // Boolean: if(готово)
 
 // {
@@ -53,15 +80,21 @@
 //Scissors(не готово)
 
 // {
-//     let admin = prompt("Граємо в гру 'камень-ножницы-бумага', Ваш вибір:");
-//     let rnd = Math.random()*10;
-//     (rnd<3)? rnd = 'ножницы'alert('А я ставлю ножиці'):(rnd<6)? alert('А я ставлю бумагу'):(rnd<10)? alert('А я ставлю камень'):'';
-    
-//     (admin>rnd)?alert('Ви виграли'):alert('Виграв Я!');
-//     console.log(admin);
-    
-    
+//     let admin = prompt("Граємо в гру 'камінь-ножиці-бумага', Ваш вибір:");
+//     if(admin=='камінь'){
+//         admin=3
+//     }
+//     else{
+//         if(admin=='ножиці'){
+//             admin=6
+//         }
+//     }
+//     if(admin=='бумага'){
+//         admin=10
+//     }
+//    let rnd1 = Math.random()*10;
+//    rnd = Math.round(rnd1);
+//    (rnd<3)? alert('А я ставлю камінь'):(rnd<6)? alert('А я ставлю ножиці'):(rnd<10)? alert('А я ставлю папір'):alert('Error');
+//    (admin>rnd)?alert('Ви виграли!'):(admin<rnd)?alert('Ви програли!'):(admin==rnd)?alert('Нічия'):''
 // }
-
-
-
+    

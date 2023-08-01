@@ -42,7 +42,7 @@
 //     alert(`Ваш сформований колір CSS: #${red}${green}${blue}`);
 // }
 
-//Number: flats
+//Number: flats(не готово)
 
 // {
 //     // let numberAppartaments =+prompt('Введіть номер квартири:');
@@ -55,7 +55,7 @@
 
 // {
 
-// Number flats(Артем)
+// Number flats
 
 //     let number=+prompt('Vvedit nomer kvarturu') 
 //     const poverhu=9

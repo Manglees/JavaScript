@@ -76,9 +76,28 @@
 //     console.log(str);
 // }
 
-//String: new line(не дороблно)
+//String: new line(готово)
 
 // {
-//     let question = prompt("Введіть будь яке речення, можливо вірш.На позначення переносу рядка використовуйте символ: '</br>'");
-//     question = question.indexOf('</br>')
+//     let question = prompt('Введіть реченя.Для позначення переносу на інший рядок використовуйте "<br>"').split('<br>').join("\n");
+//     alert(question)
+// }
+
+//String Youtube(не готово)
+
+// {
+//     const link = "http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)(&(amp;)?‌​[\w\?‌​=]*)?".match();
+//     console.log(link);
+//     let userLink = prompt("Enter the link to YouTube",'https://youtu.be/dqdbVlU1f0M');
+
+// }
+
+//String: youtube(не готово)
+
+// {
+//     let user = prompt('Enter your video in YouTube:','XXYlFuWEuKI&ab_channel=TheWeekndVEVO').match();
+//     const reg  = `http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=${user.input}|\.be\/)([\w\-\_]*)(&(amp;)?‌​[\w\?‌​=]*)?`;
+//     console.log(reg);
+    
+
 // }
